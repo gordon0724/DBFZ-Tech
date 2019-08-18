@@ -15,8 +15,10 @@
 
 工具名稱 | 用途
 ---------|----------
-Python 3 | 不需要解釋
-Flask(python)    | 幫助我建立伺服器
+Python 3 | 建立活網頁
+Flask(python) | 建立伺服器
+favicon | 網站icon
+Repl.it | 撰寫網頁
 HTML/CSS  | 網頁表示和排版
 Heroku   | 託管網頁
 Github   | 存放原始碼
