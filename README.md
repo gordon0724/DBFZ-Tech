@@ -7,7 +7,7 @@
 提供給DBFZ的玩家不專業的教學
 ## 成品展示
 
-[網站網址(host by heroku)](https://dbfztech.herokuapp.com)
+[網站網址(host by heroku)](learndbfz.herokuapp.com)
 
 ![](https://github.com/gordon0724/DBFZ-Tech/raw/master/index.png)
 
