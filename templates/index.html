@@ -42,26 +42,26 @@
             <table class="table table-striped">
                 <thead>
                   <tr class="warning">
-                    <th><span class="glyphicon glyphicon-user"></span> 站長簡介</th>
+                    <th class="text-center"><span class="glyphicon glyphicon-user"></span> 站長簡介</th>
                     <th></th>
                   </tr>
                 </thead>
                 <tbody>
                     <tr>
-                      <td><span class="glyphicon glyphicon-tag"></span> DBFZ ID</td>
-                      <td>SSJ_GOKU</td>
+                      <td class="text-center"><span class="glyphicon glyphicon-tag"></span> DBFZ ID</td>
+                      <td class="text-center">SSJ_GOKU</td>
                     </tr>
                     <tr>
-                      <td><span class="glyphicon glyphicon-tags"></span> STEAM ID</td>
-                      <td>SS GOKU REKT</td>
+                      <td class="text-center"><span class="glyphicon glyphicon-tags"></span> STEAM ID</td>
+                      <td class="text-center">SS GOKU REKT</td>
                     </tr>
                     <tr>
-                      <td><span class="glyphicon glyphicon-screenshot"></span> MAIN角</td>
-                      <td>孫悟空(超級賽亞人)</td>
+                      <td class="text-center"><span class="glyphicon glyphicon-screenshot"></span> MAIN角</td>
+                      <td class="text-center">孫悟空(超級賽亞人)</td>
                     </tr>
                     <tr>
-                      <td><span class="glyphicon glyphicon-fire"></span> MAIN隊</td>
-                      <td>巴達克<br>孫悟空(GT)<br>孫悟空(超級賽亞人)</br></td>
+                      <td class="text-center"><span class="glyphicon glyphicon-fire"></span> MAIN隊</td>
+                      <td class="text-center">巴達克<br>孫悟空(GT)<br>孫悟空(超級賽亞人)</br></td>
                     </tr>
                 </tbody>
             </table>
@@ -69,19 +69,19 @@
     </div>
     <div class="container">
       <div class="col-md-12 col-md-offset-0">
-        <h3><span class="glyphicon glyphicon-list"></span><font face="微軟正黑體"> 教學文章列表</font></h3>
+        <h3 class="text-center"><span class="glyphicon glyphicon-list"></span><font face="微軟正黑體"> 教學文章列表</font></h3>
         <table class="table table-striped">
             <thead>
-                <tr>
-                    <th class="success"><font size="4" face="微軟正黑體">分類</font></th>
-                    <th class="success"><font size="4" face="微軟正黑體">篇數</font></th>
+                <tr class="success">
+                    <th class="text-center"><font size="4" face="微軟正黑體">分類</font></th>
+                    <th class="text-center"><font size="4" face="微軟正黑體">篇數</font></th>
                 </tr>
             </thead>
             <tbody>
                 {% for c in cat %}
                 <tr>
-                  <td><font size="3" face="微軟正黑體">{{ c[0] }}</font></td>
-                  <td><a href="/tech/{{ c[0] }}"><font size="3" face="微軟正黑體">{{ c[1] }} 篇</font></a></td>
+                  <td class="text-center"><font size="3" face="微軟正黑體">{{ c[0] }}</font></td>
+                  <td class="text-center"><a href="/tech/{{ c[0] }}"><font size="3" face="微軟正黑體">{{ c[1] }} 篇</font></a></td>
                 </tr>
                 {% endfor %}
             </tbody>   
@@ -92,13 +92,13 @@
       <div class="col-md-12 col-md-offset-0">
         <table class="table table-striped">
             <thead>
-                <tr>
-                    <th class="warning"><font size="4"><span class="glyphicon glyphicon-expand"></span> 精選影片</font></th>
+                <tr class="warning">
+                    <th class="text-center"><font size="4"><span class="glyphicon glyphicon-expand"></span> 精選影片</font></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td align="center"><a href="https://www.youtube.com/playlist?list=PLyt8AD2Vt61rCs5euCP5sL7frbkk15Iq5" target="_blank" style="text-decoration:none;color:purple;"><font size="4"><font face="微軟正黑體">〔邪念波〕連段全集列表(5) </font><span class="glyphicon glyphicon-hd-video"></span></font><br>
+                    <td class="text-center"><a href="https://www.youtube.com/playlist?list=PLyt8AD2Vt61rCs5euCP5sL7frbkk15Iq5" target="_blank" style="text-decoration:none;color:purple;"><font size="4"><font face="微軟正黑體">〔邪念波〕連段全集列表(5) </font><span class="glyphicon glyphicon-hd-video"></span></font><br>
                     <iframe width="720" height="406" src="https://www.youtube.com/embed/OHXKrnn2kvg?list=PLyt8AD2Vt61rCs5euCP5sL7frbkk15Iq5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></br></td>
                 </tr>
                 <tr>

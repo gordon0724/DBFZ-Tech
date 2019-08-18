@@ -38,15 +38,15 @@
         <h2><span class="glyphicon glyphicon-bookmark"></span><font face="微軟正黑體"> {{title}}</font></h2>
         <table class="table table-striped">
             <thead>
-                <tr>
-                    <th class="info"><font face="微軟正黑體"><font size=4>文章列表</font></th>
-                    <th class="info"><font face="微軟正黑體"><font size=4> </font></th>
-                    <th class="warning"><font face="微軟正黑體"><font size=4>修改時間(UTC)</font></th>
+                <tr class="info">
+                    <th class="text-center"><font face="微軟正黑體"><font size=4>文章列表</font></th>
+                    <th class="text-center"><font face="微軟正黑體"><font size=4> </font></th>
+                    <th class="text-center"><font face="微軟正黑體"><font size=4>修改時間(UTC)</font></th>
                 </tr>
             </thead>
             <tbody>
                 {% for c in cat %}
-                <tr>
+                <tr class="text-center">
                     <td><font face="微軟正黑體"><font size=4><span class="glyphicon glyphicon-book"></span>&nbsp;{{ c[1] }}</font></td>
                     <td>
                         <button type="button" class="btn btn-block" data-toggle="modal" data-target="#myModal{{c[0]}}"><font size=3><font face="微軟正黑體">內容</font></button>
