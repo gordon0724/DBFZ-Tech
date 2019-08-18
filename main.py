@@ -19,7 +19,7 @@ def category(c):
       # ADD
       t = (i, fp, str(utc), article)
       fill.append(t)
-  return render_template("tech.html", cat=fill, title=c)
+  return render_template("learn.html", cat=fill, title=c)
 
 @app.route("/")
 def home():
