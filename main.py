@@ -5,7 +5,7 @@ import os
 
 app = Flask("DBFZ")
 
-@app.route("/tech/<c>")
+@app.route("/learn/<c>")
 def category(c):
   fs = glob.glob("articles/" + c + "/*.txt")
   fill = []
