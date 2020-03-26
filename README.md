@@ -1,10 +1,9 @@
-# Learn-DBFZ
+# 北科大APCS研習成品
 
 ## 專案介紹
 
 此測試網站架設於repl.it  <br>
-排版不適請見諒  <br>
-提供給DBFZ的玩家不專業的教學
+排版不適請見諒
 ## 成品展示
 
 [網站網址(host by heroku)](https://learndbfz.herokuapp.com)
